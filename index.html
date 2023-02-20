@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <audio id="bassAudio" src="sounds/bass.mp3"></audio>
+    <audio id="cymbalAudio" src="sounds/cymbal.mp3"></audio>
+    <audio id="floorTomAudio" src="sounds/floorTom.mp3"></audio>
+    <audio id="hiHatAudio" src="sounds/hiHat.mp3"></audio>
+    <audio id="midTomAudio" src="sounds/midTom.mp3"></audio>
+    <audio id="smallTomAudio" src="sounds/smallTom.mp3"></audio>
+    <audio id="snareAudio" src="sounds/snare.mp3"></audio>
+    
+    <h1>Sound Board</h1>
+
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-3">
+          <button id="snare" class="btn btn-dark">Snare 1</button>
+        </div>
+        <div class="col-3">
+          <button id="hiHat" class="btn btn-dark">Hi Hat</button>
+        </div>
+        <div class="col-3">
+          <button class="btn btn-dark"></button>
+        </div>
+        <div class="col-3">
+          <button id="highTom" class="btn btn-dark">High Tom</button>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-3">
+          <button id="bass" class="btn btn-dark">Bass 1</button>
+        </div>
+        <div class="col-3">
+          <button class="btn btn-dark"></button>
+        </div>
+        <div class="col-3">
+          <button class="btn btn-dark"></button>
+        </div>
+        <div class="col-3">
+          <button id="midTom" class="btn btn-dark">Mid Tom</button>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-3">
+          <button class="btn btn-dark"></button>
+        </div>
+        <div class="col-3">
+          <button class="btn btn-dark"></button>
+        </div>
+        <div class="col-3">
+          <button class="btn btn-dark"></button>
+        </div>
+        <div class="col-3">
+          <button id="floorTom" class="btn btn-dark">Floor Tom</button>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-3">
+          <button id="cymbal" class="btn btn-dark">Cymbal 1</button>
+        </div>
+        <div class="col-3">
+          <button class="btn btn-dark"></button>
+        </div>
+        <div class="col-3">
+          <button class="btn btn-dark"></button>
+        </div>
+        <div class="col-3">
+          <button class="btn btn-dark"></button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

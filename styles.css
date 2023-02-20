@@ -1,0 +1,30 @@
+body {
+  background: rgb(15, 15, 15);
+  animation: color-change 15s infinite;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  width: 170px;
+  height: 170px;
+  margin-bottom: 2rem;
+  box-shadow: 0px 0px 10px;
+  animation: color-change 15s infinite;
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  14.29% { color: orange }
+  28.58% { color: yellow; }
+  42.87% { color: green; }
+  57.16% { color: blue; }
+  71.45% { color: indigo; }
+  85.74% { color: violet; }
+  100% { color: red; }
+}
+
