@@ -1,6 +1,7 @@
 body {
   background: rgb(15, 15, 15);
   animation: color-change 15s infinite;
+  animation-direction: normal;
 }
 
 h1 {
